@@ -81,7 +81,7 @@ class ViewController: UIViewController {
         let login = self.loginTextField.text!
         let password = self.passwordTextField.text!
         
-        print(login, password)
+        print("login and password are: \(login), \(password)")
     }
 }
 
