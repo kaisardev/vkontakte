@@ -82,6 +82,17 @@ class ViewController: UIViewController {
         let password = self.passwordTextField.text!
         
         print("login and password are: \(login), \(password)")
+        
+        if login == "admin" && password == "password" {
+            let tabBarController = UIStoryboard(name: "TabBar", bundle: nil)
+                .instantiateViewController(withIdentifier: "TabBar")
+            
+            tabBarController.modalPresentationStyle = .fullScreen
+            
+            self.present(tabBarController, animated: true, completion: nil)
+        } else {
+            print("Wrong user credentials")
+        }
     }
 }
 
