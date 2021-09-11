@@ -13,6 +13,17 @@
 		0138DC0C26E63A3000D9A0FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0138DC0A26E63A3000D9A0FB /* Main.storyboard */; };
 		0138DC0E26E63A3200D9A0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0138DC0D26E63A3200D9A0FB /* Assets.xcassets */; };
 		0138DC1126E63A3200D9A0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0138DC0F26E63A3200D9A0FB /* LaunchScreen.storyboard */; };
+		019CFCB226EC6E450021D012 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019CFCB126EC6E450021D012 /* TabBar.storyboard */; };
+		019CFCB726EC704F0021D012 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CFCB626EC704F0021D012 /* HomeViewController.swift */; };
+		019CFCB926EC705A0021D012 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019CFCB826EC705A0021D012 /* Home.storyboard */; };
+		019CFCBC26EC7D1B0021D012 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019CFCBB26EC7D1B0021D012 /* Profile.storyboard */; };
+		019CFCBE26EC7D290021D012 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CFCBD26EC7D290021D012 /* ProfileViewController.swift */; };
+		019CFCC126EC89790021D012 /* HubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CFCC026EC89790021D012 /* HubViewController.swift */; };
+		019CFCC326EC89840021D012 /* Hub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019CFCC226EC89840021D012 /* Hub.storyboard */; };
+		019CFCC726ED1D330021D012 /* Messenger.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019CFCC626ED1D330021D012 /* Messenger.storyboard */; };
+		019CFCC926ED1D6A0021D012 /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CFCC826ED1D6A0021D012 /* MessengerViewController.swift */; };
+		019CFCCB26ED1D830021D012 /* Clips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019CFCCA26ED1D830021D012 /* Clips.storyboard */; };
+		019CFCCD26ED1DCA0021D012 /* ClipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CFCCC26ED1DCA0021D012 /* ClipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		0138DC0D26E63A3200D9A0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0138DC1026E63A3200D9A0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0138DC1226E63A3200D9A0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019CFCB126EC6E450021D012 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		019CFCB626EC704F0021D012 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		019CFCB826EC705A0021D012 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		019CFCBB26EC7D1B0021D012 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		019CFCBD26EC7D290021D012 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		019CFCC026EC89790021D012 /* HubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubViewController.swift; sourceTree = "<group>"; };
+		019CFCC226EC89840021D012 /* Hub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hub.storyboard; sourceTree = "<group>"; };
+		019CFCC626ED1D330021D012 /* Messenger.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messenger.storyboard; sourceTree = "<group>"; };
+		019CFCC826ED1D6A0021D012 /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
+		019CFCCA26ED1D830021D012 /* Clips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clips.storyboard; sourceTree = "<group>"; };
+		019CFCCC26ED1DCA0021D012 /* ClipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,82 @@
 		0138DC0326E63A3000D9A0FB /* LessonOne */ = {
 			isa = PBXGroup;
 			children = (
+				019CFCC526ED1C000021D012 /* Clips */,
+				019CFCC426ED1BF80021D012 /* Messenger */,
+				019CFCBF26EC89690021D012 /* Hub */,
+				019CFCBA26EC7D0E0021D012 /* Profile */,
+				019CFCB526EC703F0021D012 /* Home */,
+				019CFCB426EC6F240021D012 /* TabBar */,
+				019CFCAE26EC6CC90021D012 /* Auth */,
 				0138DC0426E63A3000D9A0FB /* AppDelegate.swift */,
 				0138DC0626E63A3000D9A0FB /* SceneDelegate.swift */,
-				0138DC0826E63A3000D9A0FB /* ViewController.swift */,
-				0138DC0A26E63A3000D9A0FB /* Main.storyboard */,
 				0138DC0D26E63A3200D9A0FB /* Assets.xcassets */,
 				0138DC0F26E63A3200D9A0FB /* LaunchScreen.storyboard */,
 				0138DC1226E63A3200D9A0FB /* Info.plist */,
 			);
 			path = LessonOne;
+			sourceTree = "<group>";
+		};
+		019CFCAE26EC6CC90021D012 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0138DC0A26E63A3000D9A0FB /* Main.storyboard */,
+				0138DC0826E63A3000D9A0FB /* ViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		019CFCB426EC6F240021D012 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				019CFCB126EC6E450021D012 /* TabBar.storyboard */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		019CFCB526EC703F0021D012 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				019CFCB626EC704F0021D012 /* HomeViewController.swift */,
+				019CFCB826EC705A0021D012 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		019CFCBA26EC7D0E0021D012 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				019CFCBB26EC7D1B0021D012 /* Profile.storyboard */,
+				019CFCBD26EC7D290021D012 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		019CFCBF26EC89690021D012 /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				019CFCC026EC89790021D012 /* HubViewController.swift */,
+				019CFCC226EC89840021D012 /* Hub.storyboard */,
+			);
+			path = Hub;
+			sourceTree = "<group>";
+		};
+		019CFCC426ED1BF80021D012 /* Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				019CFCC626ED1D330021D012 /* Messenger.storyboard */,
+				019CFCC826ED1D6A0021D012 /* MessengerViewController.swift */,
+			);
+			path = Messenger;
+			sourceTree = "<group>";
+		};
+		019CFCC526ED1C000021D012 /* Clips */ = {
+			isa = PBXGroup;
+			children = (
+				019CFCCA26ED1D830021D012 /* Clips.storyboard */,
+				019CFCCC26ED1DCA0021D012 /* ClipsViewController.swift */,
+			);
+			path = Clips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +213,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019CFCBC26EC7D1B0021D012 /* Profile.storyboard in Resources */,
+				019CFCB226EC6E450021D012 /* TabBar.storyboard in Resources */,
+				019CFCB926EC705A0021D012 /* Home.storyboard in Resources */,
 				0138DC1126E63A3200D9A0FB /* LaunchScreen.storyboard in Resources */,
+				019CFCC726ED1D330021D012 /* Messenger.storyboard in Resources */,
+				019CFCCB26ED1D830021D012 /* Clips.storyboard in Resources */,
+				019CFCC326EC89840021D012 /* Hub.storyboard in Resources */,
 				0138DC0E26E63A3200D9A0FB /* Assets.xcassets in Resources */,
 				0138DC0C26E63A3000D9A0FB /* Main.storyboard in Resources */,
 			);
@@ -137,8 +232,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019CFCBE26EC7D290021D012 /* ProfileViewController.swift in Sources */,
+				019CFCC926ED1D6A0021D012 /* MessengerViewController.swift in Sources */,
+				019CFCB726EC704F0021D012 /* HomeViewController.swift in Sources */,
+				019CFCC126EC89790021D012 /* HubViewController.swift in Sources */,
 				0138DC0926E63A3000D9A0FB /* ViewController.swift in Sources */,
 				0138DC0526E63A3000D9A0FB /* AppDelegate.swift in Sources */,
+				019CFCCD26ED1DCA0021D012 /* ClipsViewController.swift in Sources */,
 				0138DC0726E63A3000D9A0FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaisar.lessonone.LessonOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaisar.vkontakte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +412,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kaisar.lessonone.LessonOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaisar.vkontakte;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
